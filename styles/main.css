@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+ul {
+    padding: 0;
+}
+
+header {
+    padding: 51px 38px 0 23px;
+}
+
+/* navbar styles */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-title h1 {
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+}
+
+.nav-title span {
+    color: #FD6E0A;
+}
+
+.nav-items ul {
+    display: flex;
+    gap: 51px;
+    align-items: center;
+}
+
+.nav-items ul li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #474747;
+}
+
+.nav-items button {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 18px 36px;
+    background: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+}
+
+.nav-items button:hover {
+    background-color: #FFFFFF;
+    color: #181818;
+    box-shadow: 0 0 20px 0 #FD6E0A;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left 23px top 50%, right bottom;
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner-content {
+    padding: 185px 163px 184px 230px;
+}
+
+.banner-content h3 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-content h2 {
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+    margin-top: 5px;
+}
+
+.banner-content p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin: 20px 0 30px;
+}
+
+.btn-primary {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 19px 17px 18px 10px;
+    background: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn-primary i {
+    margin-right: 10px;
+}
+
+.contact-button {
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FD6E0A;
+    padding: 19px 23px 18px 24px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+}
+
+/* about styles */
+
+.about {
+    margin: 130px 230px;
+    text-align: center;
+    background: #FFF8F3;
+}
+
+.about-content {
+    padding: 131px 157px;
+}
+
+.about-content h3 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.about-content p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin: 30px 0 30px;
+}
+
+.about-content-details {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.about-details h5 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+
+.about-details span {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+/* What I do styles */
+
+.what-do {
+    margin: 0 230px 130px;
+}
+
+.what-do-content {
+    text-align: center;
+}
+
+.what-do-content h2 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.what-do-content p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin: 30px 0 50px;
+}
+
+.what-do-experience {
+    display: flex;
+    text-align: center;
+    gap: 24px;
+}
+
+.what-do-item {
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.what-do-item h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin: 30px 0 20px;
+}
+
+.what-do-item p {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* resume styles */
+.resume {
+    margin: 0 277px 130px 230px;
+}
+
+.resume h2 {
+    text-align: center;
+    margin: 130px 0 100px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.education-container {
+    display: flex;
+    gap: 71px;
+}
+
+.education h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.education-subjects h6 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin: 30px 0 10px;
+}
+
+.education-subjects span {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+
+.education-subjects p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin: 20px 0 30px;
+}
+
+.experience h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.experience-field h6 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin: 30px 0 10px;
+}
+
+.experience-field span {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+
+
+.experience-field p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin: 20px 0 30px;
+}
+
+
+/* footer styles */
+.footer-content {
+    background: #FFF8F3;
+    padding: 130px 230px;
+    gap: 117px;
+    display: flex;
+}
+
+.footer-connect h2 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.footer-connect p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin: 20px 0 30px;
+}
+
+.footer-connect img {
+    margin-right: 24px;
+}
+
+.footer-Message h2 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 24px;
+}
+
+.footer-Message input {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    background: #FFFFFF;
+    border: 0;
+    border-radius: 2px solid white;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+
+.btn-submit {
+    background: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px;
+    border: 0;
+    border-radius: 5px;
+}
